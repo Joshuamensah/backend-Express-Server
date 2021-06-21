@@ -1,0 +1,16 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "A node express server with postman",
+  "main": "index.js",
+  "author": "Joshua",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}

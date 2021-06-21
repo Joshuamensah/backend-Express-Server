@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/bin/node /Users/joshuamensah/.yarn/releases/yarn-1.22.10.cjs add express
+
+PATH: 
+  /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "express_server",
+    "version": "1.0.0",
+    "description": "An express server with postman",
+    "main": "index.js",
+    "author": "Joshua",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
